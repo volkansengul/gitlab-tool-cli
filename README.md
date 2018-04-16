@@ -1,9 +1,9 @@
-gitlab-cli
+gitlab-tool-cli
 ==================
 
-gitlab-cli is a command line utility created in JavaScript. Inspired from [hub](https://github.com/github/hub). It tries to provide commands which makes working with gitlab from the command line easier. 
+gitlab-tool-cli is a command line utility created in JavaScript. Inspired from [hub](https://github.com/github/hub). It tries to provide commands which makes working with gitlab from the command line easier. 
 
-Creating a merge request with gitlab-cli is as simple as
+Creating a merge request with gitlab-tool-cli is as simple as
 
 ```sh
 $ lab merge-request
@@ -14,7 +14,7 @@ $ lab merge-request
 Install it using npm
 
 ```sh
-$ npm install git-lab-cli -g
+$ npm install gitlab-tool-cli -g
 ```
 
 ## Usage
@@ -63,7 +63,7 @@ Above will create merge request for merging feature/feature-name in develop.
 
 ## Configurations
 
-gitlab-cli **captures configurations needed for itself on the first run**. Just run the command you want to run and it will capture the information needed. 
+gitlab-tool-cli **captures configurations needed for itself on the first run**. Just run the command you want to run and it will capture the information needed. 
 
 You can also set the configurations yourself as git config (project specific) or environment variables (global).
 
@@ -80,7 +80,7 @@ Find your gitlab token at [https://gitlab.yourcompany.com/profile/account](http:
 
 ### Environment variables
 
-Setting environment variables allows you to provide global configurations which will be used for all your gitlab repositories when using gitlab-cli. 
+Setting environment variables allows you to provide global configurations which will be used for all your gitlab repositories when using gitlab-tool-cli. 
 
     GITLAB_URL=https://gitlab.yourcompany.com
     GITLAB_TOKEN=abcdefghijskl-1230
