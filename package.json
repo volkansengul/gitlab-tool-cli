@@ -1,0 +1,25 @@
+{
+  "name": "git-lab-cli",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "gitlab-cli": "index.js",
+    "git-lab": "index.js",
+    "lab": "index.js"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.12.1",
+    "dotenv": "^4.0.0",
+    "editor": "^1.0.0",
+    "git-url-parse": "^7.0.1",
+    "gitlab": "^1.7.1",
+    "open": "0.0.5",
+    "promise": "^7.1.1",
+    "readline-sync": "^1.4.7"
+  }
+}
